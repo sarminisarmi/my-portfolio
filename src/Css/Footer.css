@@ -1,0 +1,44 @@
+/* Footer.css */
+
+/* General Footer Styles */
+footer {
+    background-color: #FF6600; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Font Sizes */
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: font-size 0.3s ease;
+  }
+  
+  /* Links (if any) */
+  footer a {
+    color: #facc15; /* Yellow */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ffee58; /* Lighter yellow on hover */
+  }
+  
+  /* Responsive Design */
+  @media screen and (min-width: 768px) {
+    footer {
+      font-size: 1.125rem; /* Slightly larger text for medium screens */
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    footer {
+      font-size: 1.25rem; /* Larger text for large screens */
+      padding: 2rem 1rem; /* More spacing */
+    }
+  }
+  

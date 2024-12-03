@@ -1,0 +1,17 @@
+/* Custom styles for the About section */
+.about-section {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .about-title {
+    color: #1E40AF; /* Custom blue color */
+    margin-bottom: 2rem;
+  }
+  
+  .about-text {
+    color: #4B5563; /* Custom gray color */
+    margin-bottom: 1rem;
+  }
+  
